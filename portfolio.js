@@ -55,3 +55,19 @@ const reveal = ()=>{
 };
 window.addEventListener('scroll', reveal);
 window.addEventListener('load', reveal);
+
+// Toggle glow on avatar when clicked or activated via keyboard
+const heroAvatar = document.getElementById('heroAvatar');
+if (heroAvatar) {
+  const toggleGlow = () => heroAvatar.classList.toggle('glow');
+  heroAvatar.addEventListener('click', toggleGlow);
+  heroAvatar.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleGlow();
+    }
+  });
+}
+
+// Open LinkedIn profile from contact button
+// LinkedIn link now uses a direct anchor in the HTML; no JS required.
