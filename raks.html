@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RAKSHITH K V — Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      
+      <nav class="nav" id="mainNav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="title">RAKSHITH K V</h1>
+          <p class="subtitle">Student — Student of KVGCE</p>
+          <p class="tagline">I build clear, visual explanations of algorithms and craft clean web interfaces.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com/in/rakshith-k-v-b97198367?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <!-- simple LinkedIn SVG icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0.24 8H4.76V24H0.24V8ZM8.98 8H13.2V10.12H13.28C13.96 9.06 15.54 7.9 17.86 7.9C22.3 7.9 24 10.4 24 14.5V24H19.48V15.5C19.48 13.6 19.44 11.18 16.6 11.18C13.72 11.18 13.28 13.12 13.28 15.34V24H8.76V8H8.98Z" fill="currentColor"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <!-- circular avatar placeholder -->
+          <div class="avatar" aria-hidden="true">
+            <img src="rakshith.jpg" alt="Rakshith avatar" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>I'm a student at KVGCE focused on learning algorithms and web development. I enjoy turning complex ideas into visual, interactive experiences.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div class="skill">Python</div>
+          <div class="skill">Java</div>
+          <div class="skill">Communication</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project">
+            <div class="project-media placeholder"></div>
+            <div class="project-body">
+              <h3>Algorithm Visualization</h3>
+              <p>A project demonstrating algorithms with animated, easy-to-understand visual representations.</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-media placeholder"></div>
+            <div class="project-body">
+              <h3>Website Cloning</h3>
+              <p>Cloned a website to learn UI/UX, layout structure and web fundamentals.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container contact-grid">
+        <div>
+          <hr class="section-sep">
+            <h2>Contact</h2>
+          <p>Phone: <a href="tel:+919108295573">917483148053</a></p>
+          <p>Email: <a href="mailto:kvrakshith404@gmail.com">kvrakshith404@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/rakshith-k-v-b97198367?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">View profile</a></p>
+        </div>
+  <form class="contact-form below" action="#" onsubmit="return false;">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="btn primary" id="sendBtn">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 RAKSHITH K V — Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
